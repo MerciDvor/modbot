@@ -51,7 +51,7 @@ class ModBot(commands.Bot):
     # +------------------------------------------------------------+
     def __init__(self, **attrs):
         self.description = f'|⌄| _  _||_  _ |_ ™\n| |(_)(_||_)(_)⎩_ v.{__version__}\n\n{__notes__}'
-        self.ownerID = 323578534763298816
+        self.ownerID = 404852972154257411
         super().__init__(command_prefix=commands.when_mentioned_or('botto ', '.', 'modbot '),
                          case_insensitive=True, owner_id=self.ownerID, description=self.description, **attrs)
         self.add_command(self.ping)
