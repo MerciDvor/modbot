@@ -31,7 +31,7 @@ from pathlib import Path
 
 __version__ = '0.07.2'  # first int is main, second is stable, third is working release [0.00.0]
 dev_list = [
-    ('WebKide', 323578534763298816),
+    ('WebKide', 404852972154257411),
     ('Ara', 324040201225633794)
 ]
 __token__ = os.getenv('TOKEN')
